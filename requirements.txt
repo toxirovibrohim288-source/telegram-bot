@@ -2,4 +2,3 @@ telethon
 python-telegram-bot
 pandas
 openpyxl
-telegram-bot-calendar

@@ -51,3 +51,7 @@ async def main():
     await client.run_until_disconnected()
 
 client.loop.run_until_complete(main())
+import os
+
+print("API_ID:", os.environ.get("API_ID"))
+print("API_HASH:", os.environ.get("API_HASH"))
